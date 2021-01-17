@@ -7,6 +7,7 @@ import {
     Dropdown, Container, DropdownButton, Card, Row, Col, Image, CardColumns
 } from 'react-bootstrap';
 
+
 class Product extends Component {
     constructor(props) {
         super(props);
@@ -40,7 +41,7 @@ class Product extends Component {
                                     <Card.Text>
                                         {this.state.product.description}
                                     </Card.Text>
-                                    <Button variant="primary">Go somewhere</Button>
+                                    <Button variant="primary" href="/">Back to Home</Button>
                                 </Card.Body>
                             </Card>
                         </Col>
