@@ -23,4 +23,4 @@ For backend part(using Node.js):
      1.2 After login redirect to the page that list all products that added from API(This one is almost done except to combine image with product detail object by image-id *image-id already added inside product detail object.)
      2.4 build endpoint to update product
      2.5 build endpoint to delete product
-  - Don't forget to replace <REPLACEME> at 'var mongo_uri = <REPLACEME>;' in index.js file.
+  - Don't forget to replace on 'REPLACEME at 'var mongo_uri = REPLACEME;' in index.js file.
