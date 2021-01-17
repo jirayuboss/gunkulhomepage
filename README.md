@@ -8,6 +8,7 @@ For frontend part(using Reactjs):
   - You can simply clone the repository and got to shop-frontend folder then, run "npm start".
   - This frontend part not yet included admin system.
   - Frontend part done with MVP(the UI is not that beautiful).
+  - There're still one bug(not a bug actually) which the cart will be empty everytime you redirect to another page as I'm using render() so, it will refresh the page eveytime I change the route.
   
 For backend part(using Node.js):
   - This is my second time using Node.js.
