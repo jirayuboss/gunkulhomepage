@@ -2,7 +2,7 @@
 
 Due to myself don't have much time on implementing this test. Some part may not be finished(Ex. frontend page for admin system) on time because I only have time after working hour to implenmenting this.
 
-*In order to run and test the process, you can simply use "npm start" for both frontend and backend separately as they are currently seperated.
+*I did not use docker and docker-compose as both frontend and backend are currently seperated and there's no contact between them so, in order to run and test the process, you can simply use "npm start" for both frontend and backend separately.
 
 For frontend part(using Reactjs):
   - You can simply clone the repository and got to shop-frontend folder then, run "npm start".
