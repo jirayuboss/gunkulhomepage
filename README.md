@@ -2,17 +2,17 @@
 
 Due to myself don't have much time on implementing this test. Some part may not be finished(Ex. frontend page for admin system) on time because I only have time after working hour to implenmenting this.
 
-*I did not use docker and docker-compose as both frontend and backend are currently seperated and there's no contact between them so, in order to run and test the process, you can simply use "npm start" for both frontend and backend separately.
+*I did not use docker and docker-compose as both frontend and backend are currently seperated and there's no contact between them so, in order to run and test the process, you can simply use "npm install -> npm start" for both frontend and "node.js" for backend separately.
 
 For frontend part(using Reactjs):
-  - You can simply clone the repository and got to shop-frontend folder then, run "npm start".
+  - You can simply clone the repository and got to shop-frontend folder then, run "npm install" -> run "npm install bootstrap" -> run "npm install react-bootstrap" then, run "npm start".
   - This frontend part not yet included admin system.
   - Frontend part done with MVP(the UI is not that beautiful).
   - There're still one bug(not a bug actually) which the cart will be empty everytime you redirect to another page as I'm using render() so, it will refresh the page eveytime I change the route.
   
 For backend part(using Node.js):
   - This is my second time using Node.js.
-  - You can also simply clone the repository and got to shop-backend folder then, run "npm start".
+  - You can also simply clone the repository and got to shop-backend folder then, run "npm install" then, run "node index.js"(In case that they required any additional library, you can simply run "npm install <library name>").
   - I'm using cloud MongoDB as a database.
   - List of feature that already done:
       2.1 build endpoint to list all product.
