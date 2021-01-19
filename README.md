@@ -1,4 +1,4 @@
-# gunkulhomepage
+# Jirayu Shop
 
 Due to myself don't have much time on implementing this test. Some part may not be finished(Ex. frontend page for admin system) on time because I only have time after working hour to implenmenting this.
 
