@@ -5,7 +5,7 @@ Due to myself don't have much time on implementing this test. Some part may not 
 *I did not use docker and docker-compose as both frontend and backend are currently seperated and there's no contact between them so, in order to run and test the process, you can simply use "npm install -> npm start" for both frontend and "node.js" for backend separately.
 
 For frontend part(using Reactjs):
-  - You can simply clone the repository and got to shop-frontend folder then, run "npm install" -> run "npm install bootstrap" -> run "npm install react-bootstrap" then, run "npm start".
+  - You can simply clone the repository and got to shop-frontend folder then, run "npm install" -> un "npm install bootstrap react-bootstrap" then, run "npm start".
   - This frontend part not yet included admin system.
   - Frontend part done with MVP(the UI is not that beautiful).
   - There're still one bug(not a bug actually) which the cart will be empty everytime you redirect to another page as I'm using render() so, it will refresh the page eveytime I change the route.
